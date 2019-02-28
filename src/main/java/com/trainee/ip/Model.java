@@ -4,10 +4,14 @@ package com.trainee.ip;
  *
  */
 
+import java.util.Date;
+
 public class Model {
     private int toDoId;
     private String toDoDescription;
     private String toDoStatus;
+    private Date dueDate;
+    private String project;
 
     public int getToDoId() {
         return toDoId;
@@ -31,5 +35,21 @@ public class Model {
 
     public void setToDoStatus(String toDoStatus) {
         this.toDoStatus = toDoStatus;
+    }
+
+    public Date getDueDate() {
+        return dueDate;
+    }
+
+    public void setDueDate(Date dueDate) {
+        this.dueDate = dueDate;
+    }
+
+    public String getProject() {
+        return project;
+    }
+
+    public void setProject(String project) {
+        this.project = project;
     }
 }
