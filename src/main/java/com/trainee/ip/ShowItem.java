@@ -4,5 +4,13 @@ package com.trainee.ip;
  *
  */
 
+import java.util.ArrayList;
+
 public class ShowItem {
+    public void showToDoList(ArrayList<Model> toDoList) {
+        System.out.println("**************** Your open To do Items *************: ");
+        for (Model todo : toDoList)
+            System.out.println(todo.getToDoId() + "/t " + todo.getToDoDescription() + " --- " + todo.getToDoStatus());
+
+    }
 }
