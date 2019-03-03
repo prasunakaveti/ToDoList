@@ -10,7 +10,7 @@ public class Model {
     private int toDoId;
     private String toDoDescription;
     private String toDoStatus;
-    private Date dueDate;
+    private String dueDate;
     private String project;
 
     public int getToDoId() {
@@ -37,11 +37,11 @@ public class Model {
         this.toDoStatus = toDoStatus;
     }
 
-    public Date getDueDate() {
+    public String getDueDate() {
         return dueDate;
     }
 
-    public void setDueDate(Date dueDate) {
+    public void setDueDate(String dueDate) {
         this.dueDate = dueDate;
     }
 

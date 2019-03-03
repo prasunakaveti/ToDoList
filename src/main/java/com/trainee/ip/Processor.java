@@ -25,7 +25,6 @@ public class Processor {
         if (option == 1) {
             showItem.showToDoList(toDoList); //Show task list
         } else if (option == 2) {
-
             toDoList=addItem.addToDoItem(toDoList); //add task
         } else if (option == 3) {
             System.out.println("Please enter you item id to update status: ");

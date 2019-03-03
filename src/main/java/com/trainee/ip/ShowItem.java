@@ -10,7 +10,8 @@ public class ShowItem {
     public void showToDoList(ArrayList<Model> toDoList) {
         System.out.println("**************** Your open To do Items *************: ");
         for (Model todo : toDoList)
-            System.out.println(todo.getToDoId() + "/t " + todo.getToDoDescription() + " --- " + todo.getToDoStatus());
+            System.out.println(todo.getToDoId() + "  " + todo.getToDoDescription() + "  "
+                    + todo.getDueDate()+ "   " + todo.getProject() + " --- " + todo.getToDoStatus() );
 
     }
 }
