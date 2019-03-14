@@ -4,5 +4,9 @@ and choose a project for that task to belong to. The user should be able to also
 They can also quit and save the current task list to file.
 
 # The Application features :
-*Show Tasks 
-*Add Tasks
+>> You have X tasks todo and Y tasks are done!
+>> Pick an option:
+>> (1) Show Task List (by date or project)
+>> (2) Add New Task
+>> (3) Edit Task (update, mark as done, remove)
+>> (4) Save and quit
