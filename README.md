@@ -3,7 +3,7 @@ The application will allow a user to create new tasks, assign them a title and d
 and choose a project for that task to belong to. The user should be able to also edit, mark as done or remove tasks. 
 They can also quit and save the current task list to file.
 
-# The Application features :
+## The Application features :
 >> Displays todo and  completed tasks<br>
 >> Show Task List by date<br>
 >> Add New Task <br>
@@ -11,16 +11,16 @@ They can also quit and save the current task list to file.
 >> Remove tasks <br>
 >> Save changes and quit
 
-# User Manual 
+## User Manual 
 
-# Getting started
+### Getting started
   Tools and technologies required to run the applications : Java8 and above, maven 3.x <br>
   User can run applications by using an IDE like NetBeans, Intellij IDEA, or Eclipse.
   Go to project directory in terminal and execute commond : mvn clean install <br>
   Then run StartApplication.java to use application <br>
   
  
-  *********Welcome to the Todo List Application!*********<br>
+#### *********Welcome to the Todo List Application!*********<br>
 Please choose your option to proceed ! <br>
 (1) Show Task List <br> 
 (2) Add New Task <br>
