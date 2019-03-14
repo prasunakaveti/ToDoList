@@ -10,3 +10,12 @@ They can also quit and save the current task list to file.
 >> (2) Add New Task<br>
 >> (3) Edit Task (update, mark as done, remove)<br>
 >> (4) Save and quit
+
+# User Manual 
+  Tools and technologies required to run the applications : Java8 and above, maven 3.x <br>
+  Go to project directory in terminal and execute commond : mvn clean install <br>
+  Then run StartApplication.java to use application <br>
+  
+  
+  
+
