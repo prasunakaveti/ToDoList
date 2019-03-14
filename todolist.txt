@@ -1,7 +1,7 @@
-1226::update functonality::    ::::Open
-824::Test updateTask::2019-03-14  ::IP::Open
-6212::unit testing::        ::IP::Open
-804::unit Testing::         ::::Open
-5781::Comments to code::2019-03-13                           ::::Open
-7676::code review::2019-03-13                              ::TodolistApp::Open
-4277::Test functionality::2019-03-15 ::IP::Open
+1226::update functonality::      ::::Open
+6212::unit testing::          ::IP::Open
+804::unit Testing::323nfk ::::Open
+5781::Comments to code::2019-03-13                             ::::Open
+7676::code review::2019-03-13                                ::TodolistApp::Open
+824::Test updateTask::2019-03-14    ::IP::Open
+4277::Test functionality::2019-03-15   ::IP::Open

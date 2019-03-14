@@ -1,7 +1,9 @@
 package com.trainee.ip;
 /* *
+ * This class counts the to do tasks and completed tasks
+ * It calls the sorted method to sort the list with dates
+ * Displays the list
  * Created by @ gnanaprasunakaveti on 2019-02-27
- *
  */
 
 import java.util.ArrayList;

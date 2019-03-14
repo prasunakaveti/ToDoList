@@ -2,8 +2,9 @@ package com.trainee.ip;
 /* *
  * This class controls processing of Todolist application
  * User can do the operation with input choice
+ * User can add and update and remove task details into ArrayList
+ * User write changes to File using File Writer
  * Created by @ gnanaprasunakaveti on 2019-02-27
- *
  */
 
 import java.io.IOException;
