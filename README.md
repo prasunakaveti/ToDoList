@@ -20,14 +20,14 @@ They can also quit and save the current task list to file.
   Then run StartApplication.java to use application <br>
   
  
-  *********Welcome to the Todo List Application!*********
-Please choose your option to proceed !
-(1) Show Task List  
-(2) Add New Task
-(3) Please enter ID to update status(as done) 
-(4) Edit Task(update task description, due date and project )
-(5) Please enter ID to remove your task!
-  
+  *********Welcome to the Todo List Application!*********<br>
+Please choose your option to proceed ! <br>
+(1) Show Task List <br> 
+(2) Add New Task <br>
+(3) Please enter ID to update status(as done) <br>
+(4) Edit Task(update task description, due date and project ) <br>
+(5) Please enter ID to remove your task! <br>
+  <br>
  User need to choose the given option to perform the required task 
   
 
