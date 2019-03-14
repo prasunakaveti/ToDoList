@@ -1,7 +1,8 @@
+com/trainee/ip/AddTask.class
 com/trainee/ip/StartApplication.class
+com/trainee/ip/ShowTask.class
 com/trainee/ip/Model.class
+com/trainee/ip/UpdateTask.class
 com/trainee/ip/FileHandler.class
 com/trainee/ip/Processor.class
-com/trainee/ip/AddItem.class
-com/trainee/ip/UpdateItem.class
-com/trainee/ip/ShowItem.class
+com/trainee/ip/CustomComparator.class

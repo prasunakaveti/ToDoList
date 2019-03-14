@@ -1,10 +1,12 @@
 package com.trainee.ip;
 /* *
+ * Model class is a POJO(Plain Old Java Object) class
+ * Model object works as a Database model for this application
+ * It holds task attributes and getter and setter methods
+ * Each task has Integer Id,
+ * task Description,status, due date and project name are String type
  * Created by @ gnanaprasunakaveti on 2019-02-27
- *
  */
-
-import java.util.Date;
 
 public class Model {
     private int toDoId;
@@ -12,6 +14,8 @@ public class Model {
     private String toDoStatus;
     private String dueDate;
     private String project;
+
+    //All instance variables should be private in POJO
 
     public int getToDoId() {
         return toDoId;
@@ -52,4 +56,6 @@ public class Model {
     public void setProject(String project) {
         this.project = project;
     }
+
+    //All getter and setter methods are public in POJO
 }
