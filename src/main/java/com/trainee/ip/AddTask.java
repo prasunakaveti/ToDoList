@@ -73,7 +73,7 @@ public class AddTask {
         return toDoList;
     }
 
-    private Date getDateFormat(String userInputDueDate) {
+    public Date getDateFormat(String userInputDueDate) {
         // Since return type of getDateFormat method is Date
         // this method should return Date value
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
