@@ -2,7 +2,8 @@ package com.trainee.ip;
 /* *
  * This class counts the to do tasks and completed tasks
  * It calls the sorted method to sort the list with dates
- * Displays the list
+ * And Displays the task list
+ *
  * Created by @ gnanaprasunakaveti on 2019-02-27
  */
 
@@ -22,9 +23,9 @@ public class ShowTask {
 
             if (todo.getToDoStatus().equalsIgnoreCase("Close")) {
                 closeCount++;
-
             }
         }
+        // Counting to do tasks and completed tasks with task status
 
         Collections.sort(toDoList, new CustomComparator());
         System.out.println("**************** You have " + openCount + " tasks To do  and " + closeCount + " are done! *************: ");
@@ -33,7 +34,7 @@ public class ShowTask {
             System.out.println(todo.getToDoId() + "\t" + todo.getToDoDescription() + "\t\t"
                     + todo.getDueDate() + "\t\t" + todo.getProject() + " ---- " + todo.getToDoStatus());
         }
-
+        // Displays the task list
     }
 
 }
