@@ -1,0 +1,20 @@
+*****************Bugs ***********************
+1.
+Created Date : 2019-03-10
+Bug Description: Application was accpeting null or empty values when adding new task.
+Status : Fixed on 14th March.
+
+2.
+Created Date: 2019-03-10
+Bug Description : Application was accpeting past dates for due date field when adding new date.
+Status : Fixed on 2019-03-11
+
+3.
+Created Date: 2019-03-10
+Bug Description: Application was accpeting null or empty values when updating existing task details.
+Status : Fixed on 14th March.
+
+4.
+Created Date: 2019-03-13
+Bug Description: Application was accepting any text for due date field when updating existing date.
+Status : Open
