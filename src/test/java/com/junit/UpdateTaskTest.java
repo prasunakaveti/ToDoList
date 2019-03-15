@@ -7,7 +7,9 @@ import static junit.framework.TestCase.assertEquals;
 
 public class UpdateTaskTest {
     @Test
+
     public void updateTest() {
+
         UpdateTask updateTask = new UpdateTask();
         // Create instance of UpdateTask
 
